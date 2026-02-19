@@ -1,0 +1,206 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="en"> <!-- Lenguaje en inglés -->
+<head> <!-- Se abre header -->
+  <meta charset="UTF-8"> <!-- Caracteres utf-8-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+  <title>Contactanos</title> <!-- Titulo de la pagina -->
+
+  <!-- CONFIGURACION BOOTSTRAP: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head> <!-- Se cierra header -->
+
+<body class="bg-light"> <!-- Cuerpo de la pagina -->
+  <!--  BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+    <div class="container-fluid"> <!-- Configuracion de bootstrap -->
+      <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a> <!-- Link ReposteryFlow color morado-->
+      <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+        <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+      </button> <!-- Se cierra el boton -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Configuracion de bootstrap -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <!-- ENCABEZADO CON DEGRADADO -->
+  <div class="bg-gradient text-white py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"> <!-- Contenedor con fondo degradado morado -->
+    <div class="container text-center"> <!-- Contenedor centrado de texto-->
+      <h1 style="color: black;" class="display-3 fw-bold mb-3">Contáctanos</h1> <!-- Texto tipo titulo -->
+      <p style="color: black;" class="lead fs-4">Completa el formulario y te responderemos pronto...</p> <!-- Texto -->
+    </div>
+  </div>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="container my-5"> <!-- Configuracion de bootstrap -->
+    <div class="row g-4"> <!-- Configuracion de bootstrap -->
+
+      <!-- COLUMNA IZQUIERDA - FORMULARIO -->
+      <div class="col-lg-8"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow-lg border-0"> <!-- Configuracion de bootstrap -->
+          <div class="card-header bg-primary text-white py-3"> <!-- Encabezado de la tarjeta con fondo azul -->
+            <h4 class="mb-0 fw-bold">Formulario de Contacto</h4> <!-- Texto tipo titulo -->
+          </div>
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <form> <!-- Se abre formulario -->
+
+              <!-- CAMPO NOMBRE -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Nombre Completo <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="text" class="form-control form-control-lg" placeholder="Pepito Andrés" required> <!-- Campo de texto obligatorio -->
+              </div>
+
+              <!-- CAMPO APELLIDO -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Apellido <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="text" class="form-control form-control-lg" placeholder="Díaz Salazar" required> <!-- Campo de texto obligatorio -->
+              </div>
+
+              <!-- CAMPO CORREO -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Correo Electrónico <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="email" class="form-control form-control-lg" placeholder="ejemplo@correo.com" required> <!-- Campo de email obligatorio -->
+              </div>
+
+              <!-- CAMPO TELEFONO -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Teléfono <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="tel" class="form-control form-control-lg" placeholder="300 123 4567" required> <!-- Campo de telefono obligatorio -->
+              </div>
+
+              <!-- CAMPO FECHA DE NACIMIENTO -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Fecha de Nacimiento <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="date" class="form-control form-control-lg" required> <!-- Campo de fecha obligatorio -->
+              </div>
+
+              <!-- CAMPO TIPO DE DOCUMENTO -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Tipo de Documento <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <select class="form-select form-select-lg" required> <!-- Menu desplegable obligatorio -->
+                  <option selected disabled>Selecciona...</option> <!-- Opcion por defecto deshabilitada -->
+                  <option>Registro Civil (R.C)</option> <!-- Primera opcion -->
+                  <option>Tarjeta de Identidad (T.I)</option> <!-- Segunda opcion -->
+                  <option>Cédula de Ciudadanía (C.C)</option> <!-- Tercera opcion -->
+                  <option>Cédula de Extranjería (C.E)</option> <!-- Cuarta opcion -->
+                </select>
+              </div>
+
+              <!-- CAMPO NUMERO DE IDENTIFICACION -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Número de Identificación <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <input type="number" class="form-control form-control-lg" placeholder="941275809" required> <!-- Campo numerico obligatorio -->
+              </div>
+
+              <!-- CAMPO MENSAJE -->
+              <div class="mb-3"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Mensaje / Pedido <span class="text-danger">*</span></label> <!-- Etiqueta en negrita con asterisco rojo obligatorio -->
+                <textarea class="form-control" rows="5" placeholder="Cuéntanos qué producto te interesa..." required></textarea> <!-- Area de texto obligatoria -->
+              </div>
+
+              <!-- CAMPO ARCHIVO -->
+              <div class="mb-4"> <!-- Configuracion de bootstrap -->
+                <label class="form-label fw-bold">Adjunta una foto (opcional)</label> <!-- Etiqueta en negrita -->
+                <input class="form-control" type="file" accept="image/*"> <!-- Campo para subir archivo de imagen -->
+                <small class="form-text text-muted">Si quieres un diseño específico, adjunta imagen</small> <!-- Texto pequeño explicativo -->
+              </div>
+
+              <!-- TARJETA DE VERIFICACION -->
+              <div class="card bg-light mb-3"> <!-- Tarjeta con fondo gris claro -->
+                <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+                  <p class="fw-bold mb-2">¿Verificaste que tus datos sean correctos?</p> <!-- Pregunta en negrita -->
+                  <div class="form-check"> <!-- Configuracion de bootstrap -->
+                    <input class="form-check-input" type="radio" name="verificacion" id="si"> <!-- Boton de radio opcion Si -->
+                    <label class="form-check-label" for="si">✅ Sí, todo está correcto</label> <!-- Etiqueta para opcion Si -->
+                  </div>
+                  <div class="form-check"> <!-- Configuracion de bootstrap -->
+                    <input class="form-check-input" type="radio" name="verificacion" id="no" checked> <!-- Boton de radio opcion No seleccionado por defecto -->
+                    <label class="form-check-label" for="no">❌ No, los corregiré</label> <!-- Etiqueta para opcion No -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- BOTON ENVIAR -->
+              <div class="d-grid"> <!-- Configuracion de bootstrap -->
+                <a href="enviado.html" class="btn btn-primary btn-lg">📤 Enviar Mensaje</a> <!-- Boton azul grande con enlace -->
+              </div>
+
+            </form> <!-- Se cierra formulario -->
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUMNA DERECHA - INFORMACION -->
+      <div class="col-lg-4"> <!-- Configuracion de bootstrap -->
+
+        <!-- TARJETA DE INFORMACION -->
+        <div class="card shadow-lg border-0 mb-4"> <!-- Configuracion de bootstrap -->
+          <div class="card-header bg-info text-white py-3"> <!-- Encabezado de la tarjeta con fondo celeste -->
+            <h5 class="mb-0 fw-bold">📍 Información</h5> <!-- Texto tipo titulo -->
+          </div>
+          <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+            <div class="mb-3"> <!-- Configuracion de bootstrap -->
+              <h6 class="fw-bold">📧 Email</h6> <!-- Subtitulo en negrita -->
+              <p>contacto@reposteryflow.com</p> <!-- Texto -->
+            </div>
+            <div class="mb-3"> <!-- Configuracion de bootstrap -->
+              <h6 class="fw-bold">📱 WhatsApp</h6> <!-- Subtitulo en negrita -->
+              <p>+57 300 123 4567</p> <!-- Texto -->
+            </div>
+            <div class="mb-3"> <!-- Configuracion de bootstrap -->
+              <h6 class="fw-bold">🕐 Horario</h6> <!-- Subtitulo en negrita -->
+              <p>Lun-Vie: 8am-6pm<br>Sáb: 9am-2pm</p> <!-- Texto con salto de linea -->
+            </div>
+            <div> <!-- Configuracion de bootstrap -->
+              <h6 class="fw-bold">📍 Ubicación</h6> <!-- Subtitulo en negrita -->
+              <p>SENA - Palmira<br>Valle del Cauca</p> <!-- Texto con salto de linea -->
+            </div>
+          </div>
+        </div>
+
+        <!-- TARJETA DE METODOS DE PAGO -->
+        <div class="card shadow-lg border-0"> <!-- Configuracion de bootstrap -->
+          <div class="card-header bg-success text-white py-3"> <!-- Encabezado de la tarjeta con fondo verde -->
+            <h5 class="mb-0 fw-bold">💳 Métodos de Pago</h5> <!-- Texto tipo titulo -->
+          </div>
+          <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+            <ul class="list-unstyled mb-0"> <!-- Lista sin viñetas -->
+              <li class="mb-2">✅ Nequi</li> <!-- Primer metodo de pago -->
+              <li class="mb-2">✅ Bancolombia</li> <!-- Segundo metodo de pago -->
+              <li class="mb-2">✅ Efectivo</li> <!-- Tercer metodo de pago -->
+              <li>✅ Contraentrega</li> <!-- Cuarto metodo de pago -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2024 ReposteryFlow - SENA</p>
+    <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+  </footer>
+
+</body>
+</html>

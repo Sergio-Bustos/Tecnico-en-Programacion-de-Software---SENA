@@ -1,0 +1,257 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="español"> <!-- Lenguaje en español -->
+<head> <!-- Se abre header -->
+    <meta charset="UTF-8"> <!-- Csaracteres utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+    <title>Carrito de compras | ReposteryFlow</title> <!-- Titulo de la pagina -->
+
+
+      <!-- CONFIGURACION BOOTSTRAP: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</head> <!-- Se cierra header -->
+
+<body class="bg-light">  <!-- Cuerpo de la pagina -->
+      <!--  BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+        <div class="container-fluid"> <!-- Configuracion de bootstrap -->
+            <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a>  <!-- Link ReposteryFlow color morado-->
+            <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+                <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+            </button> <!-- Se cierra el boton -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Configuracion de bootstrap -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+                            <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <!-- Contenedor centrado de texto-->
+    
+        <div class="container text-center">  <!-- Contenedor centrado de texto-->
+            <h1 style="color: black;"  class="display-3 fw-bold mb-3">🛒 Nuestros Productos</h1>  <!-- Texto tipo titulo -->
+            <p style="color: black;" class="lead fs-4">Descubre nuestra variedad Dulce y Lite</p> <!-- Texto -->
+        </div>
+
+ <!-- Contenedor centrado de texto decorativo-->
+    <div class="container my-5">
+        <div class="alert alert-info shadow-sm">
+            <h5 class="alert-heading fw-bold">Sobre Nuestros Productos</h5>  <!-- Texto tipo titulo -->
+            <p class="mb-0">Manejamos dos tipos: <strong>Dulces</strong> y <strong>Lite</strong>. ¡Descubre nuestro catálogo que sigue creciendo!</p> <!-- Texto normal y otro en negrita; "Dulces y Lite" -->
+        </div>
+
+        <h2 class="text-center display-5 fw-bold my-5"> Catálogo de Productos</h2> <!-- Texto tipo titulo centrado-->
+
+        <!-- CARRUSEL DE IMAGENES -->
+        <div id="carouselProductos" class="carousel slide mb-5 shadow-lg rounded" data-bs-ride="carousel"> <!-- Configuracion de bootstrap -->
+            <div class="carousel-indicators"> <!-- Configuracion de bootstrap -->
+                <!-- Configuracion de bootstrap -->
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="5"></button>
+            </div>
+            <!-- Configuracion de bootstrap -->
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2022/08/31/10/18/donuts-7422979_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Donas"> <!-- Primera imagen -->
+                    <div class="carousel-caption">
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold"> Paquete de 50 Donas</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Lite o Normal - $40.000</p> <!-- Texto -->
+                            <span class="badge bg-success">Disponible</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Pastel"> <!-- Segunda imagen -->
+                    <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold">Pastel Personalizado</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Sugar Free o Normal - $100.000 - $200.000</p> <!-- Texto -->
+                            <span class="badge bg-warning text-dark">Personalizable</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2023/07/15/10/52/bread-8128550_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Pan"> <!-- Tercera imagen -->
+                    <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold">Paquete de 50 Panes</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Masa Madre Lite o Normal - $30.000</p> <!-- Texto -->
+                            <span class="badge bg-info">Recién Horneado</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2022/02/04/08/59/organic-soap-6992361_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Cupcakes"> <!-- Cuarta imagen -->
+                    <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold"> Paquete de 25 Cupcakes</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Vainilla o Chocolate - $60.000</p> <!-- Texto -->
+                            <span class="badge bg-danger">Lite o Dulce</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+ 
+                <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/20/17/cookies-1051884_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Galletas"> <!-- Quinta imagen -->
+                    <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold"> Galletas Artesanales</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Paquete de 40 unidades - $35.000</p> <!-- Texto -->
+                            <span class="badge bg-primary">Más Vendidas</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2016/06/07/18/51/tart-1442275_1280.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Tartaleta"> <!-- Sexta imagen -->
+                    <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+                        <div class="bg-dark bg-opacity-75 rounded p-4">
+                            <h3 class="fw-bold"> Tartaleta de Frutas</h3> <!-- Texto tipo titulo -->
+                            <p class="fs-5">Personal o Familiar - $15.000 - $45.000</p> <!-- Texto -->
+                            <span class="badge bg-info">Especial de la Casa</span> <!-- Texto tipo boton llamativo abajo -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos" data-bs-slide="prev"> <!-- Boton para anterior imagen -->
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos" data-bs-slide="next"> <!-- Boton para siguiente imagen -->
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- PRODUCTOS -->
+
+        <!--PRIMER PRODUCTO-->
+        <div class="row g-4 mb-5">  <!-- Configuracion de bootstrap -->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2016/11/23/14/42/candies-1853287_1280.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Donas"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Donas</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Paquete de 50 unidades</p> <!-- Texto -->
+                        <h4 class="text-primary">$40.000</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+
+            <!--SEGUNDO PRODUCTO-->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Pastel"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Pastel</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Personalizado a tu gusto</p> <!-- Texto -->
+                        <h4 class="text-primary">$100K - $200K</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+
+            <!--TERCER PRODUCTO-->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2014/07/09/22/09/bread-388647_640.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Pan"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Pan Masa Madre</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Paquete de 50 unidades</p> <!-- Texto -->
+                        <h4 class="text-primary">$30.000</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--CUARTO PRODUCTO-->
+        <div class="row g-4 mb-5"> <!-- Configuracion de bootstrap -->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2021/10/17/13/55/birthday-cupcake-6718402_1280.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Cupcakes"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Cupcakes</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Paquete de 25 unidades</p> <!-- Texto --> 
+                        <h4 class="text-primary">$60.000</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+
+            <!--QUINTO PRODUCTO-->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2020/12/06/15/52/cookies-5809181_640.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Galletas"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Galletas</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Paquete de 40 unidades</p> <!-- Texto -->
+                        <h4 class="text-primary">$35.000</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+
+
+            <!--SEXTO PRODUCTO-->
+            <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+                <div class="card shadow-lg border-0 h-100"> <!-- Configuracion de bootstrap -->
+                    <img src="https://cdn.pixabay.com/photo/2018/07/31/10/01/tart-3574654_1280.jpg" class="card-img-top" style="height: 250px; object-fit: cover;" alt="Tartaleta"> <!--IMAGEN-->
+                    <div class="card-body"> <!-- Configuracion de bootstrap -->
+                        <h5 class="card-title fw-bold"> Tartaleta Frutal</h5> <!-- Texto tipo titulo -->
+                        <p class="text-muted">Personal o Familiar</p> <!-- Texto -->
+                        <h4 class="text-primary">$15K - $45K</h4> <!-- Texto tipo titulo -->
+                        <span class="badge bg-success mb-2">Lite</span> <!-- Texto tipo boton -->
+                        <span class="badge bg-warning text-dark">Dulce</span> <!-- Texto tipo boton -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor de texto centrado -->
+        <div class="text-center"> <!--CENTRARLO-->
+            <div class="card shadow-lg border-0" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">  <!--PERSONALZACION-->
+                <div class="card-body text-white p-5"> <!-- Configuracion de bootstrap -->
+                    <h4 class="fw-bold mb-3">¿Listo para hacer tu pedido?</h4> <!-- Texto tipo titulo -->
+                    <p class="lead mb-4">Contáctanos y cuéntanos qué producto deseas</p> <!-- Texto -->
+                    <a href="contactanos.html" class="btn btn-light btn-lg px-5"> Contactar Ahora</a> <!-- Texto tipo boton CON ENLACE -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-1">© 2024 ReposteryFlow - SENA</p>
+        <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+    </footer>
+
+</body>
+</html>

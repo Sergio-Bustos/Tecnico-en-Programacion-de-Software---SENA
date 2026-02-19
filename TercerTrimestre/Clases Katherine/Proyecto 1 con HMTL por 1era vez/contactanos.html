@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- Indica que el documento usa HTML5 -->
+<html lang="en"> <!-- Indica que el idioma del contenido es inglés -->
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres, permitiendo tildes y símbolos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite que la página se adapte al tamaño de la pantalla (responsivo) -->
+    <title>Contactanos</title> <!-- Título que aparece en la pestaña del navegador -->
+    <!--Bootstrap: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  
+  <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Formulario de registro</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="quienessomos.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dondenosencuentras.html">¿Donde nos encuentras?</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mas acciones
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="nuestrosproductos.html">Nuestros productos</a></li>
+            <li><a class="dropdown-item" href="redessociales.html">Redes sociales</a></li>
+            <li><a class="dropdown-item" href="carrito.html">Carrito de compra</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<br>  <!--Salto de linea-->
+<h1> F O R M U L A R I O  D E  R E G I S T R O</h1>
+<br>
+
+<!--Primer input-->
+<div class="row g-3 align-items-center"> <!--Bootstrap: -->
+  <div class="col-auto"> <!--Bootstrap: -->
+    <label for="inputPassword6" class="col-form-label">Ingresa tu nombre</label> <!--Input-->
+  </div>
+  <div class="col-auto">
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"> <!--Bootstrap: -->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <span id="passwordHelpInline" class="form-text"> <!--Bootstrap: -->
+      Must be 8-20 characters long. <!--Aclaracion-->
+    </span>
+  </div>
+</div>
+<br> <!--Salto de linea-->
+
+
+<div class="row g-3 align-items-center"> <!--Bootstrap: -->
+  <div class="col-auto"> <!--Bootstrap: -->
+    <label for="inputPassword6" class="col-form-label">Ingresa tu apellido</label> <!--Input-->
+  </div> <!--Bootstrap: -->
+  <div class="col-auto"> <!--Bootstrap: -->
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"> <!--Bootstrap: -->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <span id="passwordHelpInline" class="form-text"> <!--Bootstrap: -->
+      Must be 8-20 characters long. <!--Aclaracion-->
+    </span>
+  </div>
+</div>
+<br> <!--Salto de linea-->
+
+<div class="row g-3 align-items-center"> <!--Bootstrap: -->
+  <div class="col-auto"> <!--Bootstrap: -->
+    <label for="inputPassword6" class="col-form-label">Fecha de nacimiento</label> <!--Input-->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <input type="date" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"> <!--Bootstrap: -->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <span id="passwordHelpInline" class="form-text"> <!--Bootstrap: -->
+      Must be 8-20 characters long. <!--Aclaracion-->
+    </span>
+  </div>
+</div>
+<br>
+
+<select class="form-select" aria-label="Default select example"> <!--Lista desplegable de seleccionar-->
+  <option selected>Seleccione tu tipo de documento</option> <!--Texto: -->
+  <option value="1">"R.C"</option> <!--1ra opcion: -->
+  <option value="2">"T.I"</option> <!--2da opcion: -->
+  <option value="3">"C.C"</option> <!--3ra opcion: -->
+  <option value="4">"C.E"</option> <!--4ta opcion:: -->
+</select>
+<br> <!--Salto de linea-->
+
+<div class="row g-3 align-items-center"> <!--Bootstrap: -->
+  <div class="col-auto"> <!--Bootstrap: -->
+    <label for="inputPassword6" class="col-form-label">Digita tu numero de identificacion</label> <!--Input-->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"> <!--Bootstrap: -->
+  </div>
+  <div class="col-auto"> <!--Bootstrap: -->
+    <span id="passwordHelpInline" class="form-text"> <!--Bootstrap: -->
+      Must be 8-20 characters long.  <!--Aclaracion-->
+    </span>
+  </div>
+</div>
+<br> <!--Salto de linea-->
+
+<div class="mb-3">
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Deja tu mensaje y escribenos!</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+
+
+<div class="mb-3">  <!--Bootstrap: -->
+  <label for="formFile" class="form-label">Adjunta tu foto</label> <!--Input-->
+  <input class="form-control" type="file" id="formFile">  <!--Bootstrap: -->
+</div>
+<button type="submit" class="btn btn-primary">Enviar</button> <!--Boton-->
+
+
+
+
+</body>
+</html>

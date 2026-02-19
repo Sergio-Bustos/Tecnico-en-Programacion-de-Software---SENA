@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="en"> <!-- Lenguaje en inglés -->
+<head> <!-- Se abre header -->
+  <meta charset="UTF-8"> <!-- Caracteres utf-8-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+  <title>Mensaje enviado</title> <!-- Titulo de la pagina -->
+
+  <!-- CONFIGURACION BOOTSTRAP: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head> <!-- Se cierra header -->
+
+<body class="bg-light"> <!-- Cuerpo de la pagina -->
+  <!--  BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+    <div class="container-fluid"> <!-- Configuracion de bootstrap -->
+      <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a> <!-- Link ReposteryFlow color morado-->
+      <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+        <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+      </button> <!-- Se cierra el boton -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Configuracion de bootstrap -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <!-- CONTENEDOR PRINCIPAL CENTRADO -->
+  <div class="container min-vh-100 d-flex align-items-center justify-content-center"> <!-- Contenedor que ocupa toda la altura de la pantalla y centra el contenido -->
+    <div class="row w-100 justify-content-center"> <!-- Fila que ocupa todo el ancho y centra contenido -->
+      <div class="col-lg-6"> <!-- Columna de tamaño 6 para pantallas grandes -->
+
+        <!-- TARJETA PRINCIPAL DE CONFIRMACION -->
+        <div class="card shadow-lg border-0 text-center"> <!-- Tarjeta con sombra grande sin bordes y texto centrado -->
+          <div class="card-body p-5"> <!-- Cuerpo de la tarjeta con padding grande -->
+
+            <!-- ICONO DE CONFIRMACION -->
+            <div class="mb-4"> <!-- Configuracion de bootstrap -->
+              <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 120px; height: 120px;"> <!-- Circulo verde claro de 120x120 pixeles -->
+                <span style="font-size: 60px;">✅</span> <!-- Emoji de check grande -->
+              </div>
+            </div>
+
+            <!-- TITULO DE CONFIRMACION -->
+            <h2 class="display-5 fw-bold text-success mb-3">¡Mensaje Enviado!</h2> <!-- Texto tipo titulo grande en verde -->
+
+            <!-- MENSAJE DE AGRADECIMIENTO -->
+            <p class="lead text-muted mb-4">Gracias por contactarnos. Nos pondremos en contacto contigo en breves momentos.</p> <!-- Texto -->
+
+            <!-- ALERTA INFORMATIVA -->
+            <div class="alert alert-info"> <!-- Cuadro de alerta azul -->
+              <p class="mb-0"><strong>Revisa tu correo</strong> - Te enviaremos una confirmación</p> <!-- Texto con parte en negrita -->
+            </div>
+
+            <!-- BOTONES DE NAVEGACION -->
+            <div class="d-grid gap-3 mt-4"> <!-- Contenedor de botones con espaciado entre ellos -->
+              <a href="bienvenida.html" class="btn btn-primary btn-lg">🏠 Volver al Inicio</a> <!-- Boton azul grande con enlace a inicio -->
+              <a href="contactanos.html" class="btn btn-outline-primary btn-lg">📧 Enviar Otro Mensaje</a> <!-- Boton con borde azul grande con enlace a contacto -->
+              <a href="carrito.html" class="btn btn-outline-secondary btn-lg">🛒 Ver Productos</a> <!-- Boton con borde gris grande con enlace a productos -->
+            </div>
+
+          </div>
+        </div>
+
+        <!-- TARJETA DE TIEMPO DE RESPUESTA -->
+        <div class="card shadow-sm border-0 mt-4"> <!-- Tarjeta con sombra pequeña sin bordes con margen superior -->
+          <div class="card-body text-center p-4"> <!-- Cuerpo de la tarjeta centrado -->
+            <h5 class="fw-bold mb-3">⏰ Tiempo de Respuesta</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="text-muted mb-0">Normalmente respondemos en menos de 24 horas</p> <!-- Texto -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-1">© 2024 ReposteryFlow - SENA</p>
+    <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+  </footer>
+
+</body>
+</html>

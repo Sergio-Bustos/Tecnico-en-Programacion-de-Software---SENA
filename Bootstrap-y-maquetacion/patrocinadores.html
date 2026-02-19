@@ -1,0 +1,151 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="en"> <!-- Lenguaje en inglés -->
+<head> <!-- Se abre header -->
+  <meta charset="UTF-8"> <!-- Caracteres utf-8-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+  <title>Patrocinadores</title> <!-- Titulo de la pagina -->
+
+  <!-- CONFIGURACION BOOTSTRAP: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head> <!-- Se cierra header -->
+
+<body class="bg-light"> <!-- Cuerpo de la pagina -->
+  <!--  BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+    <div class="container-fluid"> <!-- Configuracion de bootstrap -->
+      <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a> <!-- Link ReposteryFlow color morado-->
+      <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+        <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+      </button> <!-- Se cierra el boton -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Configuracion de bootstrap -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+    <div class="container text-center"> <!-- Contenedor centrado de texto-->
+      <h1 style="color: black;"class="display-3 fw-bold mb-3">Nuestros Patrocinadores</h1> <!-- Texto tipo titulo -->
+      <p style="color: black;"class="lead fs-4">Empresas que confían en nuestro proyecto...</p> <!-- Texto -->
+    </div>
+  </div>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="container my-5"> <!-- Configuracion de bootstrap -->
+
+    <!-- ALERTA DE AGRADECIMIENTO -->
+    <div class="alert alert-success shadow-sm mb-5"> <!-- Alerta verde con sombra -->
+      <h4 class="alert-heading fw-bold">🎉 ¡Conoce quiénes nos apoyan!</h4> <!-- Texto tipo titulo en negrita -->
+      <p class="mb-0">Gracias a nuestros patrocinadores, ReposteryFlow crece cada día más.</p> <!-- Texto -->
+    </div>
+
+    <!-- SECCION DE TARJETAS DE PATROCINADORES -->
+    <div class="row g-4 mb-5"> <!-- Configuracion de bootstrap -->
+
+      <!-- TARJETA PATROCINADOR SENA -->
+      <div class="col-lg-4"> <!-- Configuracion de bootstrap -->
+        <div class="card h-100 shadow-lg border-0"> <!-- Tarjeta de altura completa con sombra sin bordes -->
+          <div class="card-header bg-success text-white text-center py-3"> <!-- Encabezado de la tarjeta con fondo verde -->
+            <h5 class="mb-0 fw-bold">⭐ Patrocinador Principal</h5> <!-- Texto tipo titulo -->
+          </div>
+          <img src="https://bogota.gov.co/sites/default/files/inline-images/logosena.png" class="card-img-top p-4" style="height: 220px; object-fit: contain;" alt="SENA"> <!-- Imagen del logo SENA -->
+          <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+            <span class="badge bg-success mb-2">Principal</span> <!-- Etiqueta verde -->
+            <h5 class="card-title fw-bold">SENA</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="card-text">Nuestro centro de formación nos ha apoyado con financiamiento, materiales y formación continua.</p> <!-- Texto -->
+          </div>
+          <div class="card-footer bg-light"> <!-- Pie de la tarjeta con fondo gris claro -->
+            <ul class="list-unstyled mb-0"> <!-- Lista sin viñetas -->
+              <li>✅ Financiamiento</li> <!-- Primer beneficio -->
+              <li>✅ Materiales</li> <!-- Segundo beneficio -->
+              <li>✅ Formación</li> <!-- Tercer beneficio -->
+              <li>✅ Apoyo continuo</li> <!-- Cuarto beneficio -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- TARJETA PATROCINADOR ALQUERIA -->
+      <div class="col-lg-4"> <!-- Configuracion de bootstrap -->
+        <div class="card h-100 shadow-lg border-0"> <!-- Tarjeta de altura completa con sombra sin bordes -->
+          <div class="card-header bg-info text-white text-center py-3"> <!-- Encabezado de la tarjeta con fondo celeste -->
+            <h5 class="mb-0 fw-bold">🥛 Proveedor de Lácteos</h5> <!-- Texto tipo titulo -->
+          </div>
+          <img src="https://colombiaretail.com/wp-content/uploads/2021/09/Alqueria-se-convierte-en-la-primera-compania-del-sector-lacteo-de-Colombia-en-ser-una-Empresa-B.jpg" class="card-img-top p-4" style="height: 220px; object-fit: contain;" alt="Alquería"> <!-- Imagen del logo Alqueria -->
+          <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+            <span class="badge bg-info mb-2">Aliado</span> <!-- Etiqueta celeste -->
+            <h5 class="card-title fw-bold">Alquería</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="card-text">Nos provee productos como leche, queso, azúcar y más insumos lácteos de calidad.</p> <!-- Texto -->
+          </div>
+          <div class="card-footer bg-light"> <!-- Pie de la tarjeta con fondo gris claro -->
+            <ul class="list-unstyled mb-0"> <!-- Lista sin viñetas -->
+              <li>✅ Leche</li> <!-- Primer producto -->
+              <li>✅ Queso</li> <!-- Segundo producto -->
+              <li>✅ Azúcar</li> <!-- Tercer producto -->
+              <li>✅ Otros lácteos</li> <!-- Cuarto producto -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- TARJETA PATROCINADOR D1 -->
+      <div class="col-lg-4"> <!-- Configuracion de bootstrap -->
+        <div class="card h-100 shadow-lg border-0"> <!-- Tarjeta de altura completa con sombra sin bordes -->
+          <div class="card-header bg-warning text-dark text-center py-3"> <!-- Encabezado de la tarjeta con fondo amarillo -->
+            <h5 class="mb-0 fw-bold">💰 Apoyo Financiero</h5> <!-- Texto tipo titulo -->
+          </div>
+          <img src="https://pbs.twimg.com/profile_images/1405209162863108097/_24XOCZa_400x400.jpg" class="card-img-top p-4" style="height: 220px; object-fit: contain;" alt="D1"> <!-- Imagen del logo D1 -->
+          <div class="card-body"> <!-- Cuerpo de la tarjeta -->
+            <span class="badge bg-warning text-dark mb-2">Financiero</span> <!-- Etiqueta amarilla -->
+            <h5 class="card-title fw-bold">D1</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="card-text">Nos ayuda con financiamiento y programas de mejoramiento económico.</p> <!-- Texto -->
+          </div>
+          <div class="card-footer bg-light"> <!-- Pie de la tarjeta con fondo gris claro -->
+            <ul class="list-unstyled mb-0"> <!-- Lista sin viñetas -->
+              <li>✅ Financiamiento</li> <!-- Primer servicio -->
+              <li>✅ Planes económicos</li> <!-- Segundo servicio -->
+              <li>✅ Programas empresariales</li> <!-- Tercer servicio -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TARJETA DE LLAMADO A LA ACCION -->
+    <div class="card text-white shadow-lg border-0" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"> <!-- Tarjeta con degradado rosa -->
+      <div class="card-body text-center p-5"> <!-- Cuerpo de la tarjeta centrado -->
+        <h4 class="fw-bold mb-3">📖 ¿Quieres saber más?</h4> <!-- Texto tipo titulo en negrita -->
+        <p class="lead mb-4">¡Conoce nuestra historia de emprendimiento!</p> <!-- Texto -->
+        <a href="historia.html" class="btn btn-light btn-lg">Ver Nuestra Historia</a> <!-- Boton blanco grande con enlace -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2024 ReposteryFlow - SENA</p>
+    <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+  </footer>
+
+</body>
+</html>

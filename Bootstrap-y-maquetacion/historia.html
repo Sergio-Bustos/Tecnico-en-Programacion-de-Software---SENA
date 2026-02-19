@@ -1,0 +1,207 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="en"> <!-- Lenguaje en inglés -->
+<head> <!-- Se abre header -->
+  <meta charset="UTF-8"> <!-- Caracteres utf-8-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+  <title>Historia de nosotros</title> <!-- Titulo de la pagina -->
+
+  <!-- CONFIGURACION BOOTSTRAP: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head> <!-- Se cierra header -->
+
+<body class="bg-light"> <!-- Cuerpo de la pagina -->
+  <!--  BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+    <div class="container-fluid"> <!-- Configuracion de bootstrap -->
+      <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a> <!-- Link ReposteryFlow color morado-->
+      <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+        <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+      </button> <!-- Se cierra el boton -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Configuracion de bootstrap -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <!-- ENCABEZADO CON DEGRADADO -->
+  <div class="bg-gradient text-white py-5" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"> <!-- Contenedor con fondo degradado morado -->
+    <div class="container text-center"> <!-- Contenedor centrado de texto-->
+      <h1 style="color: black;" class="display-3 fw-bold mb-3">📖 Nuestra Historia</h1> <!-- Texto tipo titulo -->
+      <p style="color: black;" class="lead fs-4">El inicio de un gran emprendimiento...</p> <!-- Texto -->
+    </div>
+  </div>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="container my-5"> <!-- Configuracion de bootstrap -->
+
+    <!-- TARJETA DE INTRODUCCION -->
+    <div class="card shadow-lg border-0 mb-5"> <!-- Tarjeta con sombra grande sin bordes -->
+      <div class="card-body p-5"> <!-- Cuerpo de la tarjeta con padding grande -->
+        <h2 class="display-6 fw-bold text-primary mb-4">🚀 Todo Empezó con el Paro Nacional del SENA</h2> <!-- Texto tipo titulo en azul -->
+        <p class="lead">En ese momento estábamos acabando nuestros estudios y fue cuando antes de la etapa práctica se nos dio la idea de no hacer un proyecto cualquiera...</p> <!-- Texto grande -->
+        <p class="fs-5">La nuestra era hacer un proyecto de <strong class="text-success">EMPRENDIMIENTO DE REPOSTERÍA!</strong></p> <!-- Texto con parte en negrita y verde -->
+      </div>
+    </div>
+
+    <!-- CARRUSEL DE IMAGENES DE HISTORIA -->
+    <div id="carouselHistoria" class="carousel slide mb-5 shadow-lg rounded" data-bs-ride="carousel"> <!-- Configuracion de bootstrap -->
+      <div class="carousel-indicators"> <!-- Configuracion de bootstrap -->
+        <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="0" class="active"></button> <!-- Boton indicador primera imagen -->
+        <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="1"></button> <!-- Boton indicador segunda imagen -->
+        <button type="button" data-bs-target="#carouselHistoria" data-bs-slide-to="2"></button> <!-- Boton indicador tercera imagen -->
+      </div>
+      <div class="carousel-inner rounded"> <!-- Configuracion de bootstrap -->
+
+        <!-- PRIMERA IMAGEN DEL CARRUSEL -->
+        <div class="carousel-item active"> <!-- Configuracion de bootstrap -->
+          <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/XH35GE3HIRABBIR7ARX7UWVFTM.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Paro SENA"> <!-- Primera imagen -->
+          <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+            <div class="bg-dark bg-opacity-75 rounded p-3"> <!-- Fondo oscuro semitransparente -->
+              <h5 class="fw-bold">El Inicio</h5> <!-- Texto tipo titulo -->
+              <p>Cuando todo comenzó...</p> <!-- Texto -->
+            </div>
+          </div>
+        </div>
+
+        <!-- SEGUNDA IMAGEN DEL CARRUSEL -->
+        <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+          <img src="https://www.infobae.com/resizer/v2/HMSDWMRIWBEE3GSHMKP6ELENSI.jpg?auth=43824f69bb7139a34913042af81c018b76334244df046dd484883631dc1a18ae&smart=true&width=1024&height=512&quality=85" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Manifestación"> <!-- Segunda imagen -->
+          <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+            <div class="bg-dark bg-opacity-75 rounded p-3"> <!-- Fondo oscuro semitransparente -->
+              <h5 class="fw-bold">La Inspiración</h5> <!-- Texto tipo titulo -->
+              <p>De la adversidad nació la oportunidad</p> <!-- Texto -->
+            </div>
+          </div>
+        </div>
+
+        <!-- TERCERA IMAGEN DEL CARRUSEL -->
+        <div class="carousel-item"> <!-- Configuracion de bootstrap -->
+          <img src="https://caracol.com.co/resizer/v2/M6IOFY423FBY5A2FNXZYJQLE6I.jpeg?auth=f7369c44c7cd99f4ac958dbe5b440cf41f86e4e5f26ae29bb99d0538bef32616&width=736&height=491&quality=70&smart=true" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="Estudiantes"> <!-- Tercera imagen -->
+          <div class="carousel-caption"> <!-- Configuracion de bootstrap -->
+            <div class="bg-dark bg-opacity-75 rounded p-3"> <!-- Fondo oscuro semitransparente -->
+              <h5 class="fw-bold">El Compromiso</h5> <!-- Texto tipo titulo -->
+              <p>Unidos por un sueño</p> <!-- Texto -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria" data-bs-slide="prev"> <!-- Boton para anterior imagen -->
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria" data-bs-slide="next"> <!-- Boton para siguiente imagen -->
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- SECCION DE PRIMEROS PASOS Y CRECIMIENTO -->
+    <div class="row g-4 mb-5"> <!-- Configuracion de bootstrap -->
+
+      <!-- TARJETA PRIMEROS PASOS -->
+      <div class="col-md-6"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow border-0 h-100"> <!-- Tarjeta con sombra sin bordes de altura completa -->
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <div class="mb-3"> <!-- Configuracion de bootstrap -->
+              <span class="display-4">🎯</span> <!-- Emoji grande -->
+            </div>
+            <h4 class="fw-bold mb-3">Los Primeros Pasos</h4> <!-- Texto tipo titulo en negrita -->
+            <p>Fue allí donde empezó todo. Empezamos a hacerlo entre varias personas, luego fue aumentando los ayudantes cuando se veía que todo estaba funcionando y yendo bien.</p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TARJETA CRECIMIENTO -->
+      <div class="col-md-6"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow border-0 h-100"> <!-- Tarjeta con sombra sin bordes de altura completa -->
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <div class="mb-3"> <!-- Configuracion de bootstrap -->
+              <span class="display-4">⭐</span> <!-- Emoji grande -->
+            </div>
+            <h4 class="fw-bold mb-3">El Crecimiento</h4> <!-- Texto tipo titulo en negrita -->
+            <p>Y desde allí nos llegaron patrocinadores, vieron que nos iba bien, y en ese momento, fue donde creamos <strong class="text-primary">ReposteryFlow!</strong></p> <!-- Texto con parte en negrita y azul -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TARJETA DE COMENTARIOS -->
+    <div class="card shadow-lg border-0 mb-5" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"> <!-- Tarjeta con degradado rosa -->
+      <div class="card-body text-white p-5 text-center"> <!-- Cuerpo de la tarjeta con texto blanco centrado -->
+        <h3 class="display-6 fw-bold mb-3">💬 ¿Qué te parece?</h3> <!-- Texto tipo titulo -->
+        <p class="lead mb-4">Cuéntanos, nosotros te escuchamos</p> <!-- Texto -->
+        <div class="row justify-content-center"> <!-- Configuracion de bootstrap -->
+          <div class="col-lg-8"> <!-- Configuracion de bootstrap -->
+            <textarea class="form-control form-control-lg mb-3" rows="4" placeholder="Deja tu mensaje sobre nuestra historia..."></textarea> <!-- Area de texto grande -->
+            <a href="enviado.html" class="btn btn-light btn-lg px-5">📩 Enviar Mensaje</a> <!-- Boton blanco grande con enlace -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION DE VALORES -->
+    <div class="row g-4"> <!-- Configuracion de bootstrap -->
+
+      <!-- TARJETA TRABAJO EN EQUIPO -->
+      <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow border-0 text-center h-100"> <!-- Tarjeta con sombra sin bordes centrada de altura completa -->
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <span class="display-1">💪</span> <!-- Emoji muy grande -->
+            <h5 class="fw-bold mt-3">Trabajo en Equipo</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="text-muted">Unidos logramos más</p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TARJETA FORMACION SENA -->
+      <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow border-0 text-center h-100"> <!-- Tarjeta con sombra sin bordes centrada de altura completa -->
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <span class="display-1">🎓</span> <!-- Emoji muy grande -->
+            <h5 class="fw-bold mt-3">Formación SENA</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="text-muted">Educación de calidad</p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TARJETA PASION -->
+      <div class="col-md-4"> <!-- Configuracion de bootstrap -->
+        <div class="card shadow border-0 text-center h-100"> <!-- Tarjeta con sombra sin bordes centrada de altura completa -->
+          <div class="card-body p-4"> <!-- Cuerpo de la tarjeta -->
+            <span class="display-1">❤️</span> <!-- Emoji muy grande -->
+            <h5 class="fw-bold mt-3">Pasión</h5> <!-- Texto tipo titulo en negrita -->
+            <p class="text-muted">Hecho con amor</p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2024 ReposteryFlow - SENA</p>
+    <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+  </footer>
+
+</body>
+</html>

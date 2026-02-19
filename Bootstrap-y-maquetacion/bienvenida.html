@@ -1,0 +1,276 @@
+<!DOCTYPE html> <!-- Tipo html -->
+<html lang="español"> <!-- Lenguaje en español -->
+<head> <!-- Se abre header -->
+  <meta charset="UTF-8"> <!-- Csaracteres utf-8-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuracion html-->
+  <title>Bienvenido a ReposteryFlow</title> <!-- Titulo de la pagina -->
+
+  <!-- CONFIGURACION BOOTSTRAP: -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</head> <!-- Se cierra header -->
+<body> <!-- Cuerpo de la pagina -->
+
+
+
+  <!--  BARRA DE NAVEGACION -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!-- Configuracion de bootstrap -->
+    <div class="container-fluid"> <!-- Configuracion de bootstrap-->
+      <a style="color: rgb(119, 0, 255);" class="navbar-brand" href="bienvenida.html">ReposteryFlow</a> <!-- Link ReposteryFlow color morado-->
+
+
+      <!-- BOTON HAMBURGUESA -->
+      <button style="color: rgb(119, 0, 255);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"   aria-expanded="false" aria-label="Toggle navigation"> <!-- Boton hamburguesa que se pone morado cuando se abre-->
+        <span class="navbar-toggler-icon"></span> <!-- Configuracion de bootstrap -->
+      </button> <!-- Se cierra el boton -->
+
+
+      <!-- LINKS -->
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">  <!-- Configuracion de bootstrap -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- Configuracion de bootstrap con los links; Lista desordenada -->
+          <li class="nav-item"> <!-- Configuracion de bootstrap -->
+            <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a> <!-- Link Contactanos-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito de compras</a> <!-- Link Carrito de compras-->
+          </li>
+
+
+          <!-- BOTON DESPLEGABLE DE DOS LINKS MAS -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas sobre nosotros <!-- Boton que mostrara las otras dos opciones-->
+            </a>
+            <ul class="dropdown-menu"> <!-- Cuando se de a mas sobre nosotros se mostrara: -->
+              <li><a class="dropdown-item" href="patrocinadores.html">Patrocinadores</a></li> <!-- Link Patrocinadores-->
+              <li><a class="dropdown-item" href="historia.html">Historia</a></li> <!-- Link Historia-->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <!-- Contenedor centrado de texto-->
+  <div class="container mt-4">
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <h4 class="alert-heading"> ¡Bienvenido a ReposteryFlow!</h4>
+      <p class="mb-0">La repostería artesanal más deliciosa, hecha con amor por aprendices del SENA</p>
+    </div>
+
+    <!-- Contenedor de carrusel de imagenes centrado -->
+
+
+    <!-- Configuracion de bootstrap -->
+    <div class="card shadow mb-4">
+      <div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="2"></button>
+        </div>
+
+
+        <!-- Primera imagen -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2018/11/24/07/15/pasteleria-3835088_640.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Pastelería">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Repostería Artesanal</h5> <!-- Primer texto arriba -->
+              <p>Productos frescos hechos con los mejores ingredientes</p> <!-- Segundo texto abajo-->
+            </div>
+          </div>
+
+
+
+          <!-- Segunda imagen -->
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2014/09/04/19/28/cream-puff-435813_640.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Pastelitos">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Dulces y Postres</h5> <!-- Primer texto arriba -->
+              <p>Variedades deliciosas para todos los gustos</p> <!-- Segundo texto abajo-->
+            </div>
+          </div>
+
+
+          <!-- Tercera imagen -->
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2020/04/09/21/18/biscuit-5023135_640.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Galletas">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Panadería Gourmet</h5> <!-- Primer texto arriba -->
+              <p>Pan fresco todos los días</p> <!-- Segundo texto abajo-->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev"> <!-- Boton devolver la anterior imagen -->
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next"> <!-- Boton ir a la siguiente imagen -->
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Contenedor de texto quienes somos centrado-->
+    <div class="row mb-4"> <!-- Configuracion de bootstrap -->
+      <div class="col-12"> <!-- Configuracion de bootstrap -->
+        <h2 class="text-center mb-4 text-primary">¿Quiénes Somos? </h2> <!-- Texto tipo titulo-->
+        <p class="lead text-center mb-4"> <!-- Centrar -->
+          Somos una empresa fundada por el SENA y aprendices apasionados por la repostería.
+          Nos encanta hacer pasteles, panadería y mucho más con dedicación y calidad. <!-- Texto -->
+        </p>
+      </div>
+    </div>
+
+
+
+    <div class="row mb-4"> <!-- Configuracion de bootstrap -->
+      <div class="col-12"> <!-- Configuracion de bootstrap -->
+        <h2 class="text-center mb-4 text-primary">¿Por que preferirnos? </h2> <!-- Texto tipo titulo-->
+        <p class="lead text-center mb-4"> <!-- Centrar -->
+      </div>
+    </div>
+
+    <!-- Tarjetas de por que preferirnos -->
+
+    <!-- PRIMERA TARJETA  -->
+    <div class="row g-4 mb-5">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body text-center">
+            <div class="display-4 text-primary mb-3">💰</div> <!-- EMOJI TIPO GRANDE CON CONFIG. DE BOOTSTRAP-->
+            <h5 class="card-title">Accesibilidad</h5> <!-- Texto tipo titulo-->
+            <p class="card-text">
+              Vendemos nuestros productos a la mejor calidad y mejor precio.  
+              No cobramos por los materiales, cobramos por la calidad de lo que hacemos 🙌
+            </p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+
+
+      <!-- SEGUNDA TARJETA  -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-success">
+          <div class="card-body text-center">
+            <div class="display-4 text-success mb-3">🌟</div>  <!-- EMOJI TIPO GRANDE CON CONFIG. DE BOOTSTRAP-->
+            <h5 class="card-title">¿Por qué elegirnos?</h5> <!-- Texto tipo titulo-->
+            <p class="card-text">
+              Totalmente financiados por el SENA. Cada producto es artesanal.
+              Esos kilitos de más los vas a disfrutar de la manera más sana.
+            </p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+       <!-- TERCERA TARJETA  -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-info">
+          <div class="card-body text-center">
+            <div class="display-4 text-info mb-3">🤝</div> <!-- EMOJI TIPO GRANDE CON CONFIG. DE BOOTSTRAP-->
+            <h5 class="card-title">Confianza</h5> <!-- Texto tipo titulo-->
+            <p class="card-text">
+              Con nosotros puedes confiar tu dinero y tus fechas importantes.
+              Cada bocado sabrá bien y te guardará recuerdos especiales.
+            </p> <!-- Texto -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--- SECCION DE EJEMPLO DE PRODUCTO-->
+    <!-- Contenedor de texto centrado-->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h3 class="text-center mb-4 text-secondary">Mira lo que hacemos 🎂</h3> <!-- Texto -->
+      </div>
+
+      <!--Imagen centrada-->
+      <div class="col-md-6 mx-auto">
+        <div class="card shadow">
+          <img src="https://terely.com/cdn/shop/files/cake.jpg?v=1716324003&width=480" class="card-img-top" alt="Pastel rosa"> <!-- imagen-->
+          <div class="card-body"> <!-- Configuracion de bootstrap -->
+            <h5 class="card-title">Pastel Personalizado</h5> <!-- Texto tipo titulo-->
+            <p class="card-text"> <!-- Configuracion de bootstrap -->
+              Mira el último pastel que hicimos este mes. Hermoso, ¿no lo crees?. 
+            </p> <!-- Texto -->
+            <div class="d-grid"> <!-- Configuracion de bootstrap -->
+              <a href="carrito.html" class="btn btn-primary">Ver Más Productos</a> <!-- Hipervinculo -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- SECCION PREGUNTAS FRECUENTES -->
+
+    <div class="row mb-5">
+      <div class="col-lg-8 mx-auto">
+        <h4 class="text-center mb-4">Preguntas Frecuentes </h4> <!-- Texto tipo titulo-->
+        <div class="accordion accordion-flush shadow" id="accordionFAQ">
+
+
+          <!-- PRIMERA PREGUNTA -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                <strong>💳 ¿Cómo se paga?</strong> <!-- Texto en negrita -->
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body">
+                Dependiendo del pedido y tus intereses. Puedes pagar con Nequi, Bancolombia,
+                o si prefieres, manejamos pago contraentrega en persona. <!-- Texto -->
+              </div>
+            </div>
+          </div>
+
+
+          <!-- SEGUNDA PREGUNTA -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                <strong>💡 ¿Por qué tuvieron esta idea?</strong> <!-- Texto en negrita -->
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body">
+                Somos aprendices muy agradecidos con las oportunidades que nos da el SENA.
+                La mejor forma de recompensar es mediante este emprendimiento. <!-- Texto -->
+              </div>
+            </div>
+          </div>
+
+
+          <!-- TERCERA PREGUNTA -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                <strong>🎨 ¿Se puede elegir el estilo?</strong> <!-- Texto en negrita -->
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body">
+                ¡Claro que sí! Puedes elegir todo sobre tu pastel: materiales,
+                si lo quieres Lite, muy dulce, y mucho más. <!-- Texto -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-2">© 2024 ReposteryFlow - SENA</p>
+      <p class="mb-0">Hecho con ❤️ por aprendices emprendedores</p>
+    </div>
+  </footer>
+</body>
+</html>
