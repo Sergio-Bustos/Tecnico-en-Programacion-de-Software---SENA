@@ -1,68 +1,87 @@
-Tecnico-en-Programacion-de-Software -- SENA
+Tecnico en Programacion de Software - SENA
+Repositorio académico que contiene las actividades, talleres, proyectos y prácticas desarrolladas durante el programa de formación técnica en el SENA.
 
-Repositorio academico que contiene las actividades, talleres, proyectos y practicas desarrolladas durante el Tecnico en Programacion de Software en el SENA.
+Este espacio documenta mi proceso de aprendizaje, desde los fundamentos básicos de la programación hasta el desarrollo de proyectos integradores organizados por trimestres.
 
-Este repositorio documenta el proceso de aprendizaje desde los fundamentos de la programacion hasta el desarrollo de proyectos organizados por trimestres.
+📝 Descripción General
 
-Descripcion General
 
-En este repositorio se almacena el trabajo realizado durante la formacion tecnica, incluyendo:
+En este repositorio se almacena el trabajo realizado durante la formación, incluyendo:
 
-•  Actividades practicas
+•  Actividades prácticas
 
 •  Talleres evaluativos
 
 •  Proyectos individuales
-•  Ejercicios de logica de programacion
+
+•  Ejercicios de lógica de programación
+
 •  Aplicaciones desarrolladas en consola
-•  Practicas con bases de datos
-•  Maquetacion web basica
 
-Objetivo principal: Evidenciar la evolucion tecnica y el fortalecimiento de habilidades en desarrollo de software.
+•  Prácticas con bases de datos
 
-Organizacion del Repositorio
+•  Maquetación web básica
 
-El contenido esta organizado en carpetas como:
+Objetivo principal: Evidenciar la evolución técnica y el fortalecimiento de habilidades en el desarrollo de software.
 
-•  Actividades
-•  Talleres
-•  Proyectos especificos
-•  Primer trimestre
-•  Segundo trimestre
-•  Tercer trimestre
+📂 Organización del Repositorio
 
-Cada carpeta contiene los archivos correspondientes a esa etapa del proceso formativo.
 
-Tecnologias Utilizadas
+El contenido está estructurado para facilitar la navegación:
 
-Durante el tecnico se trabajo con:
+•  Actividades: Ejercicios breves de refuerzo.
 
-•  Python
-•  PostgreSQL
-•  HTML
-•  CSS
-•  Bootstrap
-•  Fundamentos de bases de datos
-•  Metodologias agiles (SCRUM)
-•  Etc
+•  Talleres: Guías prácticas evaluadas.
 
-Competencias Desarrolladas
+•  Proyectos específicos: Aplicaciones de mayor escala.
 
-•  Pensamiento logico y resolucion de problemas
-•  Programacion estructurada
-•  Uso de condicionales y estructuras de datos
-•  Organizacion y documentacion de codigo
-•  Diseño basico de interfaces
-•  Trabajo bajo metodologia agil
-•  Desarrollo de pequeños sistemas funcionales
+•  Primer Trimestre: Lógica y fundamentos.
 
-Proposito del Repositorio
+•  Segundo Trimestre: Bases de datos y estructuras.
 
-•  Evidencia academica
-•  Portafolio de aprendizaje
-•  Historial de evolucion tecnica
-•  Base para futuras mejoras y refactorizaciones
+•  Tercer Trimestre: Desarrollo web y metodologías.
 
-Estado del Proyecto
+🛠️ Tecnologías Utilizadas
 
-Repositorio en constante actualizacion conforme avanza el proceso formativo.
+
+Durante el técnico, he trabajado con las siguientes herramientas y lenguajes:
+
+•  Lenguajes: Python
+
+•  Bases de Datos: PostgreSQL y fundamentos relacionales
+
+•  Frontend: HTML5, CSS3 y Bootstrap
+
+•  Metodologías: Metodologías ágiles (SCRUM)
+
+•  Herramientas: Git, GitHub, Visual Studio Code
+
+🚀 Competencias Desarrolladas
+
+
+•  Pensamiento lógico y resolución de problemas
+
+•  Programación estructurada y orientada a objetos
+
+•  Uso de condicionales y estructuras de datos complejas
+
+•  Organización y documentación de código (Clean Code)
+
+•  Diseño básico de interfaces de usuario (UI)
+
+•  Trabajo bajo marcos de trabajo ágiles
+
+•  Desarrollo de sistemas funcionales de pequeña y mediana escala
+
+🎯 Propósito del Repositorio
+
+
+Evidencia académica: Respaldo de los entregables para el centro de formación.
+
+Portafolio de aprendizaje: Muestra real de habilidades para el sector productivo.
+
+Historial técnico: Seguimiento del crecimiento personal como programador.
+
+Base de mejora: Código disponible para futuras refactorizaciones.
+
+Estado del Proyecto: 🔄 En constante actualización conforme avanza el proceso formativo.
