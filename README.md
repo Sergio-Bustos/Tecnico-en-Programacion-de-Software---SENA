@@ -9,7 +9,9 @@ Descripcion General
 En este repositorio se almacena el trabajo realizado durante la formacion tecnica, incluyendo:
 
 •  Actividades practicas
+
 •  Talleres evaluativos
+
 •  Proyectos individuales
 •  Ejercicios de logica de programacion
 •  Aplicaciones desarrolladas en consola
