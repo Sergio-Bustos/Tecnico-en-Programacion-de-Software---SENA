@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_sena_colombia.svg/1200px-Logo_sena_colombia.svg.png" width="110" alt="Logo SENA">
+<img src="https://ape.sena.edu.co/imgLayout/logos/Logosimbolo-SENA-PRINCIPAL.png" width="110" alt="Logo SENA">
 
 # 🎓 Técnico en Programación de Software
 
@@ -117,6 +117,7 @@ Proyectos integradores completos con frontend, backend y base de datos. Desplieg
 | Visual Studio Code | Editor de código principal |
 | SCRUM | Metodología ágil de gestión de proyectos |
 
+Entre otras tecnologías importantes mas...
 ---
 
 ## 🚀 Competencias desarrolladas
@@ -158,7 +159,7 @@ Proyectos integradores completos con frontend, backend y base de datos. Desplieg
 
 **🔄 Repositorio en constante actualización conforme avanza el proceso formativo.**
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Logo_sena_colombia.svg/1200px-Logo_sena_colombia.svg.png" width="60" alt="SENA">
+<img src="https://ape.sena.edu.co/imgLayout/logos/Logosimbolo-SENA-PRINCIPAL.png" width="60" alt="SENA">
 
 Sergio Andrés Bustos Mondragón · Técnico en Programación de Software · SENA 2025
 
