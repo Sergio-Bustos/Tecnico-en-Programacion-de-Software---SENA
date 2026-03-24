@@ -7,3 +7,4 @@ Este repositorio contiene las actividades realizadas y aprendidas durante el ter
 - HTML
 - Mejoramiento de bucles while
 - Bucles for
+- Desarrollo FullStack
