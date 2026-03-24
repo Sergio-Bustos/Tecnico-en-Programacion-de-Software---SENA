@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- Indica que es tipo html -->
+<html lang="en"> <!-- Lenguaje en ingles -->
+<head> <!-- HEAD -->
+    <meta charset="UTF-8"> <!-- Caracteres utf-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Usa toda la pantalla que pueda -->
+    <title>Mi primera pagina con JS</title> <!-- Titulo de la pestaña de la pagina web -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link al CSS -->
+    <script src="script.js"></script> <!-- Link al JavaScript -->
+
+
+</head> <!-- HEAD -->
+<body> <!-- Cuerpo de la pagina -->
+    <div class="contenedor"> <!-- Contenedor de la imagen y los botones -->
+        <section class="image">
+            <h1 class="h1">Imagen: </h1>
+            <img id="foto" title="Imagen actual" src="https://www.consumer.es/app/uploads/2004/05/flor-de-loto-e1653918982491.jpg" alt="Image"> <!-- Imagen -->
+        </section>
+
+        <section class="botonesconjs">
+            <button onclick="cambiarImagen()">Cambiar Imagen Actual</button> <!-- Boton con evento onclick para cambiar imagen -->
+
+            <button onclick="cambiarColor()">Cambiar Color de Fondo</button> <!-- Boton con evento onclick para cambiar color -->
+
+            <button onclick="cambiarTexto()">Cambiar Texto Actual</button> <!-- Boton con evento onclick para cambiar texto -->
+
+            <button onclick="agregarBoton()">Agregar Botón</button>
+
+            <button onclick="ocultarImagen()">Ocultar Imagen</button>
+
+            <button onclick="modoOscuro()">
+                <svg xmlns="http://www.w3.org/2000/svg"width="16" height="16" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                    <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                </svg>
+            </button>
+        </section>
+
+        <section class="texto">
+            <h2 class="h2">Texto: </h2>
+            <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid quam fugit officiis perferendis, expedita omnis veritatis? Quod autem sit, facilis maiores pariatur excepturi, similique accusantium distinctio recusandae, voluptatibus praesentium.</p>
+        </section>
+
+        
+
+    </div> <!-- Cierre del div -->
+</body> <!-- Cierre del body -->
+</html> <!-- Cierre del html -->
