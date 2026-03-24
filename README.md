@@ -47,26 +47,34 @@ Aquí se almacena el trabajo realizado durante toda la formación técnica, incl
 Tecnico-Programacion-SENA/
 │
 ├── 📁 Primer-Trimestre/          # Lógica y fundamentos de programación
-│   ├── Actividades/
-│   ├── Talleres/
-│   └── Proyectos/
+│   ├── Ejercicios en clase/
+│   ├── Talleres y desafíos en clase/
+│   └── README.md/
 │
-├── 📁 Segundo-Trimestre/         # Bases de datos y estructuras de datos
-│   ├── Actividades/
-│   ├── Talleres/
-│   └── Proyectos/
+├── 📁 Segundo-Trimestre/         # Estructuras de datos, bases de datos, librerias, bucles, etc
+│   ├── Diagramas de flujo/
+│   ├── Ejercicios en clase/
+|   ├── Talleres y desafíos en clase/
+│   └── README.md/
+|
 │
-├── 📁 Tercer-Trimestre/          # Desarrollo web FullStack y metodologías ágiles
-│   ├── Actividades/
-│   ├── Talleres/
+├── 📁 Tercer-Trimestre/          # Desarrollo web FullStack, POO y metodologías ágiles
+│   ├── Clases Katherine/
+│   ├── Curso POO/
+│   ├── Ejercicios en clase/
+│   ├── Proyecto para aprender Flask/
+│   ├── mi_proyecto/
+│   ├── .gitignore/
 │   └── Proyectos/
-│
+│   └── README.md
+|
 ├── 📁 Cuarto-Trimestre/          # Desarrollo web FullStack + Despliegue
-│   ├── Actividades/
-│   ├── Talleres/
+│   ├── JavaScript/
+│   ├── Navbar horizontal/
+│   ├── Navbar vertical/
 │   └── Proyectos/
-│
-└── README.md
+│   └── README.md
+
 ```
 
 ---
