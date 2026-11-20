@@ -98,8 +98,8 @@ Desarrollo de aplicaciones web con HTML5, CSS3, Bootstrap y Flask. Introducción
 Proyectos integradores completos con frontend, backend y base de datos. Despliegue en entornos de producción y buenas prácticas de desarrollo.
 
 ### 📘 Quinto Trimestre - PHP 
-Fundamentos de un nuevo lenguaje
 Proyectos pequeños con pequeños scripts pero ya no con Python, sino con PHP.
+frontend
 ---
 
 ## 🛠️ Tecnologías utilizadas durante la formación
