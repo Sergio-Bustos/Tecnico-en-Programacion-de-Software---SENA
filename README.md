@@ -47,7 +47,7 @@ Tecnico-Programacion-SENA/
 ├── 📁 Primer-Trimestre/          # Lógica y fundamentos de programación
 │   ├── Ejercicios en clase/
 │   ├── Talleres y desafíos en clase/
-│   └── README.md/
+│   └── README.md
 │
 ├── 📁 Segundo-Trimestre/         # Estructuras de datos, bases de datos, bucles
 │   ├── Diagramas de flujo/
@@ -70,7 +70,7 @@ Tecnico-Programacion-SENA/
 ├── Parte 2/
 ├── Parte 3/
 └── Parte 4/
----
+
 
 ## 🗺️ Contenido por trimestre
 
