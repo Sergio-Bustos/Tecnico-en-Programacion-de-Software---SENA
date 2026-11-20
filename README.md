@@ -74,7 +74,11 @@ Tecnico-Programacion-SENA/
 │   ├── Navbar vertical/
 │   └── Proyectos/
 │   └── README.md
-
+├── 📁 Quinto-Trimestre/          # PHP y sus fundamentos de programación
+│   ├── Parte 1/
+│   ├── Parte 2/
+│   ├── Parte 3/
+│   └── Parte 4
 ```
 
 ---
@@ -93,6 +97,9 @@ Desarrollo de aplicaciones web con HTML5, CSS3, Bootstrap y Flask. Introducción
 ### 📕 Cuarto Trimestre — FullStack + Despliegue
 Proyectos integradores completos con frontend, backend y base de datos. Despliegue en entornos de producción y buenas prácticas de desarrollo.
 
+### 📘 Quinto Trimestre - PHP 
+Fundamentos de un nuevo lenguaje
+Proyectos pequeños con pequeños scripts pero ya no con Python, sino con PHP.
 ---
 
 ## 🛠️ Tecnologías utilizadas durante la formación
