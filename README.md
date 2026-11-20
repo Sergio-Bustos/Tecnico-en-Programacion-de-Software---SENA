@@ -97,6 +97,8 @@ Desarrollo de aplicaciones web con HTML5, CSS3, Bootstrap y Flask. Introducción
 ### 📕 Cuarto Trimestre — FullStack + Despliegue
 Proyectos integradores completos con frontend, backend y base de datos. Despliegue en entornos de producción y buenas prácticas de desarrollo.
 
+### 📘 Quinto Trimestre
+Proyectos pequeños completos con PHP mediante pequeños scripts pero PHP y no Python.
 ### 📘 Quinto Trimestre - PHP 
 Proyectos pequeños con pequeños scripts pero ya no con Python, sino con PHP.
 frontend
