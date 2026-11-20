@@ -7,6 +7,7 @@
 **Servicio Nacional de Aprendizaje — SENA**
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PHP](https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-BD_Relacional-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![HTML5](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Estilos-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
@@ -29,21 +30,18 @@ Aquí se almacena el trabajo realizado durante toda la formación técnica, incl
 
 | Tipo de contenido | Descripción |
 |-------------------|-------------|
-| 📌 **Actividades prácticas** | Ejercicios breves de refuerzo de cada tema |
-| 📋 **Talleres evaluativos** | Guías prácticas entregadas como evidencia de aprendizaje |
-| 🏗️ **Proyectos individuales** | Aplicaciones de mayor escala desarrolladas por trimestre |
-| 🧠 **Lógica de programación** | Ejercicios de pensamiento computacional y algoritmos |
-| 🖥️ **Aplicaciones en consola** | Programas funcionales desarrollados en Python |
-| 🗄️ **Prácticas con bases de datos** | Consultas, modelado y conexión con PostgreSQL |
-| 🌐 **Maquetación web** | Páginas y layouts con HTML5, CSS3 y Bootstrap |
+| 📌 **Actividades prácticas** | Ejercicios breves de refuerzo |
+| 📋 **Talleres evaluativos** | Guías entregadas como evidencia |
+| 🏗️ **Proyectos individuales** | Aplicaciones por trimestre |
+| 🧠 **Lógica de programación** | Pensamiento computacional |
+| 🖥️ **Aplicaciones en consola** | Programas en Python y PHP |
+| 🗄️ **Bases de datos** | Consultas y conexión relacional |
 
 > 🎯 **Objetivo:** Evidenciar la evolución técnica y el fortalecimiento de habilidades en el desarrollo de software.
 
 ---
 
 ## 📂 Organización por trimestres
-
-```
 Tecnico-Programacion-SENA/
 │
 ├── 📁 Primer-Trimestre/          # Lógica y fundamentos de programación
@@ -51,36 +49,27 @@ Tecnico-Programacion-SENA/
 │   ├── Talleres y desafíos en clase/
 │   └── README.md/
 │
-├── 📁 Segundo-Trimestre/         # Estructuras de datos, bases de datos, librerias, bucles, etc
+├── 📁 Segundo-Trimestre/         # Estructuras de datos, bases de datos, bucles
 │   ├── Diagramas de flujo/
 │   ├── Ejercicios en clase/
-|   ├── Talleres y desafíos en clase/
-│   └── README.md/
-|
+│   └── Talleres y desafíos en clase/
 │
-├── 📁 Tercer-Trimestre/          # Desarrollo web FullStack, POO y metodologías ágiles
+├── 📁 Tercer-Trimestre/          # Desarrollo web FullStack, POO y SCRUM
 │   ├── Clases Katherine/
 │   ├── Curso POO/
 │   ├── Ejercicios en clase/
-│   ├── Proyecto para aprender Flask/
-│   ├── mi_proyecto/
-│   ├── .gitignore/
 │   └── Proyectos/
-│   └── README.md
-|
-├── 📁 Cuarto-Trimestre/          # Desarrollo web FullStack + Despliegue
+│
+├── 📁 Cuarto-Trimestre/          # FullStack + Despliegue
 │   ├── JavaScript/
 │   ├── Navbar horizontal/
-│   ├── Navbar vertical/
-│   └── Proyectos/
-│   └── README.md
-├── 📁 Quinto-Trimestre/          # PHP y sus fundamentos de programación
-│   ├── Parte 1/
-│   ├── Parte 2/
-│   ├── Parte 3/
-│   └── Parte 4/
-```
-
+│   └── Navbar vertical/
+│
+└── 📁 Quinto-Trimestre/          # PHP y desarrollo web dinámico
+├── Parte 1/
+├── Parte 2/
+├── Parte 3/
+└── Parte 4/
 ---
 
 ## 🗺️ Contenido por trimestre
@@ -95,67 +84,46 @@ Fundamentos de bases de datos relacionales con PostgreSQL. Modelado de datos, co
 Desarrollo de aplicaciones web con HTML5, CSS3, Bootstrap y Flask. Introducción a metodologías ágiles con SCRUM.
 
 ### 📕 Cuarto Trimestre — FullStack + Despliegue
-Proyectos integradores completos con frontend, backend y base de datos. Despliegue en entornos de producción y buenas prácticas de desarrollo.
+Proyectos integradores completos con frontend, backend y base de datos. Despliegue en entornos de producción y buenas prácticas.
 
-### 📘 Quinto Trimestre - PHP
-Proyectos pequeños completos con PHP mediante pequeños scripts pero PHP y no Python.
+### 📘 Quinto Trimestre — PHP y Backend Dinámico
+Desarrollo de scripts y proyectos web interactivos utilizando **PHP** para la gestión de lógica del servidor y conexión con bases de datos.
 
 ---
+
 ## 🛠️ Tecnologías utilizadas durante la formación
 
 ### Lenguajes y Backend
 | Tecnología | Uso |
 |------------|-----|
-| Python 3.x | Lenguaje principal — lógica, POO, scripting |
-| Flask | Framework web para aplicaciones backend |
-| Jinja2 | Motor de plantillas HTML |
-| PHP |      | Nuevo lenguaje |
+| Python 3.x | Lógica, POO, scripting |
+| PHP | Desarrollo backend dinámico |
+| Flask | Framework web en Python |
 
-### Base de Datos
+### Base de Datos y Frontend
 | Tecnología | Uso |
 |------------|-----|
-| PostgreSQL | Motor de base de datos relacional |
-| SQL | Consultas, modelado y manipulación de datos |
+| PostgreSQL | Base de datos relacional |
+| HTML5 / CSS3 | Estructura y estilos web |
+| Bootstrap 5 | Componentes UI responsivos |
 
-### Frontend
-| Tecnología | Uso |
-|------------|-----|
-| HTML5 | Estructura semántica de páginas web |
-| CSS3 | Estilos, animaciones y diseño responsive |
-| Bootstrap 5 | Layout y componentes de interfaz |
-
-### Herramientas y Metodologías
+### Herramientas
 | Herramienta | Uso |
 |------------|-----|
-| Git | Control de versiones |
-| GitHub | Repositorio remoto y colaboración |
-| Visual Studio Code | Editor de código principal |
-| SCRUM | Metodología ágil de gestión de proyectos |
+| Git / GitHub | Control de versiones |
+| VS Code | Editor de código |
+| SCRUM | Gestión ágil |
 
-Entre otras tecnologías importantes mas...
 ---
 
 ## 🚀 Competencias desarrolladas
 
-- 🧠 **Pensamiento lógico** y resolución de problemas algorítmicos
-- 🏗️ **Programación estructurada** y orientada a objetos (POO)
-- 📊 **Diseño y consulta** de bases de datos relacionales
-- 🌐 **Desarrollo web FullStack** con Python, Flask y HTML/CSS
-- 🧹 **Organización y documentación** de código (Clean Code)
-- 🎨 **Diseño básico de interfaces** de usuario (UI/UX)
-- 🤝 **Trabajo en equipo** bajo marcos de trabajo ágiles (SCRUM)
-- 🚀 **Despliegue** de aplicaciones web en entornos de producción
-
----
-
-## 🎯 Propósito del repositorio
-
-| Propósito | Descripción |
-|-----------|-------------|
-| 📄 **Evidencia académica** | Respaldo de entregables para el centro de formación SENA |
-| 💼 **Portafolio de aprendizaje** | Muestra real de habilidades para el sector productivo |
-| 📈 **Historial técnico** | Seguimiento del crecimiento personal como programador |
-| 🔧 **Base de mejora** | Código disponible para futuras refactorizaciones |
+- 🧠 **Pensamiento lógico** y resolución de problemas algorítmicos.
+- 🏗️ **Programación estructurada** y orientada a objetos (POO).
+- 📊 **Diseño y consulta** de bases de datos relacionales.
+- 🌐 **Desarrollo web FullStack** con Python, PHP y HTML/CSS.
+- 🧹 **Organización y documentación** de código (Clean Code).
+- 🤝 **Trabajo en equipo** bajo marcos de trabajo ágiles (SCRUM).
 
 ---
 
@@ -164,14 +132,14 @@ Entre otras tecnologías importantes mas...
 | Trimestre | Contenido | Estado |
 |-----------|-----------|--------|
 | Primer Trimestre | Lógica y fundamentos | ✅ Completado |
-| Segundo Trimestre | Bases de datos y estructuras | ✅ Completado |
-| Tercer Trimestre | Desarrollo web FullStack | ✅ Completado |
-| Cuarto Trimestre | FullStack + Despliegue | ✅ Completado | Quinto Trimestre | PHP | ✅ Completado 
+| Segundo Trimestre | Bases de datos | ✅ Completado |
+| Tercer Trimestre | Desarrollo web | ✅ Completado |
+| Cuarto Trimestre | FullStack | ✅ Completado |
+| Quinto Trimestre | PHP y Dinámica Web | ✅ Completado |
 
 ---
 
 <div align="center">
-
 
 <img src="https://bogota.gov.co/sites/default/files/inline-images/logosena.png" width="60" alt="SENA">
 
