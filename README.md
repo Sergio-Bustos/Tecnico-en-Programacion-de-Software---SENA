@@ -109,6 +109,7 @@ Proyectos pequeños completos con PHP mediante pequeños scripts pero PHP y no P
 | Python 3.x | Lenguaje principal — lógica, POO, scripting |
 | Flask | Framework web para aplicaciones backend |
 | Jinja2 | Motor de plantillas HTML |
+| PHP |      | Nuevo lenguaje |
 
 ### Base de Datos
 | Tecnología | Uso |
@@ -165,13 +166,12 @@ Entre otras tecnologías importantes mas...
 | Primer Trimestre | Lógica y fundamentos | ✅ Completado |
 | Segundo Trimestre | Bases de datos y estructuras | ✅ Completado |
 | Tercer Trimestre | Desarrollo web FullStack | ✅ Completado |
-| Cuarto Trimestre | FullStack + Despliegue | 🔄 En curso |
+| Cuarto Trimestre | FullStack + Despliegue | ✅ Completado | Quinto Trimestre | PHP | ✅ Completado 
 
 ---
 
 <div align="center">
 
-**🔄 Repositorio en constante actualización conforme avanza el proceso formativo.**
 
 <img src="https://bogota.gov.co/sites/default/files/inline-images/logosena.png" width="60" alt="SENA">
 
