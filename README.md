@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/120px-Sena_Colombia_logo.svg.png" width="110" alt="Logo SENA">
+<img src="https://bogota.gov.co/sites/default/files/inline-images/logosena.png" width="110" alt="Logo SENA">
 
 # 🎓 Técnico en Programación de Software
 
@@ -78,7 +78,7 @@ Tecnico-Programacion-SENA/
 │   ├── Parte 1/
 │   ├── Parte 2/
 │   ├── Parte 3/
-│   └── Parte 4
+│   └── Parte 4/
 ```
 
 ---
@@ -174,7 +174,7 @@ Entre otras tecnologías importantes mas...
 
 **🔄 Repositorio en constante actualización conforme avanza el proceso formativo.**
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/120px-Sena_Colombia_logo.svg.png" width="60" alt="SENA">
+<img src="https://bogota.gov.co/sites/default/files/inline-images/logosena.png" width="60" alt="SENA">
 
 Sergio Andrés Bustos Mondragón · Técnico en Programación de Software · SENA 2025
 
