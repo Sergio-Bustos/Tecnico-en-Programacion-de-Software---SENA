@@ -42,35 +42,32 @@ Aquí se almacena el trabajo realizado durante toda la formación técnica, incl
 ---
 
 ## 📂 Organización por trimestres
+
+```text
 Tecnico-Programacion-SENA/
-│
 ├── 📁 Primer-Trimestre/          # Lógica y fundamentos de programación
 │   ├── Ejercicios en clase/
 │   ├── Talleres y desafíos en clase/
 │   └── README.md
-│
 ├── 📁 Segundo-Trimestre/         # Estructuras de datos, bases de datos, bucles
 │   ├── Diagramas de flujo/
 │   ├── Ejercicios en clase/
 │   └── Talleres y desafíos en clase/
-│
 ├── 📁 Tercer-Trimestre/          # Desarrollo web FullStack, POO y SCRUM
 │   ├── Clases Katherine/
 │   ├── Curso POO/
 │   ├── Ejercicios en clase/
 │   └── Proyectos/
-│
 ├── 📁 Cuarto-Trimestre/          # FullStack + Despliegue
 │   ├── JavaScript/
 │   ├── Navbar horizontal/
 │   └── Navbar vertical/
-│
 └── 📁 Quinto-Trimestre/          # PHP y desarrollo web dinámico
-├── Parte 1/
-├── Parte 2/
-├── Parte 3/
-└── Parte 4/
-
+    ├── Parte 1/
+    ├── Parte 2/
+    ├── Parte 3/
+    └── Parte 4/
+```
 
 ## 🗺️ Contenido por trimestre
 
